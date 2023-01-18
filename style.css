@@ -49,6 +49,7 @@
 
 .top-picks{
 
+    padding: 0px 0px 0px 10px;
     font-size: 30px;
     font-family: 'Cormorant', serif;
 
@@ -88,6 +89,40 @@
 
 }
 
+.current{
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Cormorant', serif;
+
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.pink{
+    width:300px;
+    height: 400px;
+    padding: 50px;
+
+}
+
+.blue{
+    width:300px;
+    height: 400px;
+    padding: 50px;
+
+}
+
+.blawhite{
+    width:300px;
+    height: 400px;
+    padding: 50px;
+
+}
+    
 .ending{
     padding: 10px;
     font-size: 20px;
