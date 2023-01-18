@@ -1,10 +1,9 @@
 .header{
-    padding: 60px;
+padding: 40px;
    text-align: center;
-   background: #1abc9c;
-   color: white;
+   color: peachpuff;
    font-size: 30px;
-   font-family: 'Cormorant', serif;
+   font-family: 'Petit Formal Script', cursive;
  }
 
  .section1{
@@ -15,116 +14,156 @@
 
  }
  .book-forest{
-    width:300px;
+    width: 90%;
     height: 400px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
+    padding: 20px;
+    
  }
 
+ .shelf{
+    display:flex;
+    justify-content: center;
+    
+ }
 .intro{
 
-    padding: 60px;
+    padding: 30px 60px 10px 60px;
     display: flex;
     flex-direction: row;
     align-self: center;
     font-size: 20px;
+    font-family: 'Cormorant', serif;
 }
 
 .fave{
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Cormorant', serif;
-
+    
+    padding: 0px 60px 0px 60px;
+    font-size: 35px;
+    font-family: 'Josefin Slab', serif;
 
 }
 
 .genre{
 
+    padding: 0px 60px 0px 100px;
     font-size: 20px;
     font-family: 'Cormorant', serif;
-
 }
-
 
 .top-picks{
 
-    padding: 0px 0px 0px 10px;
-    font-size: 30px;
-    font-family: 'Cormorant', serif;
+    padding: 0px 60px 0px 60px;
+    font-size: 35px;
+    font-family: 'Josefin Slab', serif;
 
 }
 
+
 .top-picks-list{
-    padding: 0px 0px 0px 10px;
+
+    padding: 0px 60px 0px 60px;
     font-size: 20px;
     font-family: 'Cormorant', serif;
 
 }
 
 .new{
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Cormorant', serif;
+    
+    padding: 0px 60px 0px 60px;
+    font-size: 35px;
+    font-family: 'Josefin Slab', serif;
 
 }
 
 .newme{
-    padding: 10px;
+    padding: 0px 60px 10px 60px;
     font-size: 20px;
     font-family: 'Cormorant', serif;
 }
 
+.columnn{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.bigrow{
+    display:flex;
+
+}
+
 .s-bookshelf{
-    width:300px;
-    height: 400px;
+    width: 30%;
+    height: 30%;
     padding: 50px;
     display: flex;
     flex-direction: row;
 
 }
-.footer{
-    padding: 100px;
-  background: #1abc9c;
-
-}
 
 .current{
-    padding: 10px;
-    font-size: 30px;
-    font-family: 'Cormorant', serif;
+    padding: 0px 60px 0px 60px;
+    font-size: 35px;
+    font-family: 'Josefin Slab', serif;
 
 }
 
 .row{
+    padding: 0px 30px 0px 30px;
     display:flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+
 }
 
 .pink{
     width:300px;
     height: 400px;
-    padding: 50px;
+    padding: 60px;
+    border-color: pink;
+    border-width: 2px;
+    border-style: solid;
 
 }
 
 .blue{
     width:300px;
     height: 400px;
-    padding: 50px;
+    padding: 60px;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
 
 }
 
 .blawhite{
     width:300px;
     height: 400px;
-    padding: 50px;
+    padding: 60px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 
 }
     
 .ending{
-    padding: 10px;
+    padding: 10px 60px 10px 60px;
     font-size: 20px;
     font-family: 'Cormorant', serif;
+}
+
+.footer{
+    display:flex;
+    padding: 50px;
+    background: peachpuff;
+    justify-content: space-between;
+}
+
+.wonderful{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+}
+
+.follow{
+    font-family: 'Josefin Slab', serif;
+    
 }
